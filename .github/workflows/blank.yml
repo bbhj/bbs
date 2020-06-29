@@ -15,7 +15,7 @@ jobs:
         id: hello
         uses: airdb/actions@master
         with:
-          myInput: ${{ toJson(github) }}
+          myInput: ${{ github }}
 
       - name: $github
         run: echo "$GITHUB_CONTEXT"
