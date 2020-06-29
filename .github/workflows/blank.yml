@@ -13,7 +13,7 @@ jobs:
 
       - name: Show new comments
         id: hello
-        uses: airdb/actions
+        uses: airdb/actions@master
         with:
           myInput: ${{ toJson(github) }}
 
