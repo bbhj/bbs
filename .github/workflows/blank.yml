@@ -14,6 +14,8 @@ jobs:
       - name: Show new comments
         id: hello
         uses: airdb/actions@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GithubBotToken }}
         with:
           myInput: hello
 
