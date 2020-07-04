@@ -17,7 +17,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GithubBotToken }}
         with:
-          myInput: hello
+          myInput: issue
 
       #- name: $github
        # run: echo "$GITHUB_CONTEXT"
