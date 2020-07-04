@@ -16,8 +16,6 @@ jobs:
         uses: airdb/actions@master
         env:
           GITHUB_TOKEN: ${{ secrets.GithubBotToken }}
-        with:
-          myInput: issue
 
       #- name: $github
        # run: echo "$GITHUB_CONTEXT"
